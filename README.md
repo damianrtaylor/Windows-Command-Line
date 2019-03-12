@@ -2,7 +2,7 @@
 
 Create Windows Firewall Rule to Block IP Addresses
 
-Netsh.exe advfirewall firewall add rule name=”Tor Exit Node Block” RemoteIP=146.185.220.0/23, 146.185.220.1 - 146.185.221.254  protocol=any dir=in enable=yes action=block profile=private, public, domain interface=any
+netsh advfirewall firewall add rule name=”Tor Exit Node Block” RemoteIP=146.185.220.0/23, 146.185.220.1 - 146.185.221.254  protocol=any dir=in enable=yes action=block profile=private, public, domain interface=any
 
 Parameters
 
