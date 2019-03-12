@@ -7,6 +7,7 @@ Netsh.exe advfirewall firewall add rule name=”Tor Exit Node Block” RemoteIP=
 Parameters
 
 name= <Name of the rule>
+  
 RemoteIP= <Public IP Address> (if more than one IP, seperate with comma or enter a range -> 146.185.220.1 - 146.185.221.254)
 
 program = <”File Executable Path”> (if applicable)
@@ -18,4 +19,5 @@ dir= in|out
 enable = yes|no
 
 action = allow|block|custom
+
 profile = private|public|domain|any
