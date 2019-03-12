@@ -15,8 +15,7 @@ protocol= TCP|UDP|any
 
 dir= in|out
 
-enable = YES|NO
+enable = yes|no
 
-action = Allow|Block|custom
-
-profile = Private|public|domain|any
+action = allow|block|custom
+profile = private|public|domain|any
